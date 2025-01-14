@@ -18,7 +18,7 @@ jobs:
         with:
           dotnet-version: 9.0.x
 
-      - name: Build with dotnet
+      - name: Build it with dotnet
         run: dotnet build --configuration Release
 
       - name: Test
